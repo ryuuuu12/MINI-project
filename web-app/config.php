@@ -12,7 +12,7 @@ define('DB_NAME', 'u155978661_drowsiness');
 date_default_timezone_set('Asia/Kolkata');
 
 // Site URL
-define('SITE_URL', 'https://drowsiness.online/');
+define('SITE_URL', 'https://mini-project-two-navy.vercel.app/');
 
 // Create connection
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
