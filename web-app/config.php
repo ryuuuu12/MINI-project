@@ -12,7 +12,7 @@ define('DB_NAME', 'railway');
 date_default_timezone_set('Asia/Kolkata');
 
 // Site URL
-define('SITE_URL', 'https://mini-project-two-navy.vercel.app/');
+define('SITE_URL', 'mini-project-production-80d2.up.railway.app/');
 
 // Create connection
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
