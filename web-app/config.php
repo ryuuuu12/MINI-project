@@ -3,10 +3,10 @@
 session_start();
 
 // Database configuration
-define('DB_HOST', 'localhost');
-define('DB_USER', 'u155978661_drowsiness'); // Change this to your database username
-define('DB_PASS', '*6UGNd4#q'); // Change this to your database password
-define('DB_NAME', 'u155978661_drowsiness');
+define('DB_HOST', 'mysql.railway.internal');
+define('DB_USER', 'root'); // Change this to your database username
+define('DB_PASS', 'nxBAvidZaLlfLSBMvdPxCWUYwwjkEiIk'); // Change this to your database password
+define('DB_NAME', 'railway');
 
 // Timezone
 date_default_timezone_set('Asia/Kolkata');
