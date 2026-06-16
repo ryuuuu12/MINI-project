@@ -63,7 +63,7 @@ if ($conn->query($sql)) {
     file_put_contents('esp_trigger.txt', json_encode($trigger_data));
     
     // Also make direct HTTP request to esp-api.php (as backup)
-    $esp_url = 'https://drowsiness.space/esp-api.php';
+    $esp_url = 'https://drowsinessdetection-production.up.railway.app/esp-api.php';
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $esp_url);
     curl_setopt($ch, CURLOPT_POST, 1);
